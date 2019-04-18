@@ -1,0 +1,9 @@
+- name: 'redis: restart'
+  service:
+    name: 'redis-server'
+    state: 'restarted'
+
+- name: 'redis: reload'
+  service:
+    name: 'redis-server'
+    state: 'reloaded'
