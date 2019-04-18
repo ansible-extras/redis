@@ -3,6 +3,7 @@ dependencies: []
 
 galaxy_info:
   author: Vladislav Bakin
+  description: "Redis role"
   license: "MIT"
   platforms:
     - name: Debian
